@@ -19,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.count do |element|
     if element.length < 5
-      true
+     puts true
  end 
 end
 end
